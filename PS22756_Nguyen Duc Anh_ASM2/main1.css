@@ -1,0 +1,71 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+#wrapper{width: 980px;margin: auto;}
+.header-main{text-align: center;background: rgb(243, 243, 243);}
+.nav-main{height: 40px; background:rgb(80, 191, 255);}
+.content{height: 1080px; margin-top: 20px;}
+.content-left{width: 70%;height: 1080px;float: left;}
+.content-right{width: 30%;height: 1080px;border-left: 1px solid #cdcdcd;border-right: 1px solid #cdcdcd ;float: left;}
+.footer-main{height: 250px;color: #fff;text-align: center;line-height: 50px;}
+.logo{width: 100%;}
+
+/*css menu */
+.nav-main ul li{
+    list-style: none;float: left;line-height: 40px;padding: 0 40px;position: relative;
+}
+.nav-main ul li a{color: #fff;text-decoration: none;}
+.nav-main ul li a:hover{text-decoration: underline;}
+.submenu{position: absolute;background:rgb(80, 191, 255);display: none;}
+.submenu li{width: 200px;}
+.nav-main ul li:hover .submenu{display: block;}
+/*css banner chính */
+.bannerchinh{width:100%; margin-top: 20px;}
+.bannerT{position: fixed; top: 0; left: 0;}
+.bannerP{position: fixed; top: 0; right: 0;}
+/*css show sản phẩm */
+.danhmuc{font-weight: bold;line-height: 40px;border-bottom: 1px solid #cdcdcd;font-size: 23px;background: aliceblue;}
+.sp{float: left;border: 1px solid #cdcdcd;height: 322px;margin: 10px 20px 20px 0; text-align: center; display: block;
+border-radius: 20px;position: relative;}
+.anhsp{width: 70%;height: 180px;margin: 10px 0;}
+.tensp a{color:rgb(36, 33, 33); text-decoration: none; font-size: 22px;}
+.tensp a:hover{color: crimson;}
+.giasp1{margin-top: 10px; font-size: 14px;}
+.giasp1 span{text-decoration: line-through; color: rgb(236, 55, 55);}
+.giasp2{margin-top: 10px; font-weight: bold; font-size: 20px;}
+.giasp2 span{text-decoration: line-through; color: rgb(236, 55, 55);}
+.text{
+    margin-left: 20px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    background-color: #ffffff;
+    padding-left: 5px;
+    margin-top: 8px;
+   }
+   .timkiem{
+    margin-left: 10px;
+    width: 90px;
+    height: 20px;
+    background-color:  #db2704;;
+    border: 0,5px solid #ffffff;
+    color: #ffffff;
+   }
+   form{
+    text-align: right;
+    margin-right: 35px;}
+
+
+/*csss right */
+.danhmucR{font-weight: bold;line-height: 40px;border-bottom: 1px solid #cdcdcd;padding-left: 20px;
+text-transform: uppercase;font-size: 20px;background:rgb(80, 191, 255);}
+.listP ul li{
+    list-style-position: inside;padding-left: 20px;line-height: 35px;font-size: 20px;
+}
+.listP ul li a{color: black; text-decoration: none;}
+.listP ul li a:hover{text-decoration: underline;}
+.footer-main{
+    border-color: #69ccf3;
+    padding: 10px;
+    color: rgb(199, 39, 39);
+    border-bottom: 1px solid #cdcdcd;
+    border-top: 1px solid #cdcdcd;
+}
